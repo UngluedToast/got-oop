@@ -1,6 +1,8 @@
 # sssssh. these aren't "real" test
 
 from character_class import Character
+from character_class import Hero
+
 
 # Characters can be instantiated with name and avatar
 
@@ -32,3 +34,8 @@ print(Gandalf.greet(Frodo))
 
 #another greet method for greeting others or not at all
 print(Gandalf.greet())
+
+
+
+#i should be able to creat a Hero instance
+Gimli = Hero('Gimli son of someone', 'Gimli.png')
