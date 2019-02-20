@@ -28,3 +28,6 @@ class Character():
 # Character is the super class of Hero
 class Hero(Character):
     pass
+
+class Monster(Character):
+    pass

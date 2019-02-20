@@ -2,6 +2,7 @@
 
 from character_class import Character
 from character_class import Hero
+from character_class import Monster
 
 
 # Characters can be instantiated with name and avatar
@@ -38,4 +39,12 @@ print(Gandalf.greet())
 
 
 #i should be able to creat a Hero instance
-Gimli = Hero('Gimli son of someone', 'Gimli.png')
+Gimli = Hero('Gimli son of Gloin', 'Gimli.png')
+
+# hero should be able to greet Character
+print(Gimli.greet(Gandalf))
+print(Gandalf.greet(Gimli))
+
+# Monster should be able to greet someone
+
+Orc = Monster('Filty Orc', 'Orcy1.png')
