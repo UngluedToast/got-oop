@@ -47,7 +47,14 @@ print(Gandalf.greet(Gimli))
 
 # Monster should be able to greet someone
 
-Orc = Monster('A Filty Orc', 'Orcy1.png')
+Orc = Monster()
 
-print(Orc.greet2())
-print(Orc.greet2(Gandalf))
+print(Orc.greet())
+
+# Orc = Monster('A Filty Orc', 'Orcy1.png')
+
+# print(Orc.greet2())
+# print(Orc.greet2(Gandalf))
+
+# hero needs to greet monster
+print(Gimli.greet(Orc))
