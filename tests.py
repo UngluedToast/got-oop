@@ -28,3 +28,7 @@ print(Gandalf.inventory)
 # when i call it 'Gandalf.greet(Frodo)' it should return
 #Hello, Frodo Baggins, you must take the ring!
 print(Gandalf.greet(Frodo))
+
+
+#another greet method for greeting others or not at all
+print(Gandalf.greet())
