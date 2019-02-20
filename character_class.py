@@ -14,6 +14,6 @@ class Character():
         self.name = new_name
         self.avatar = new_avatar
         self.inventory = []
-    def greet(self):
-        return "I am %s. Fly you fools!" % (self.name,)
+    def greet(self, someone):
+        return "Hello, %s, I am %s. Fly you fool." % (someone.name, self.name,)
 

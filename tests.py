@@ -25,5 +25,6 @@ print(Gandalf.inventory)
 
 # Gandalf should have a 'greet' method
 # and when I call it, it should return "FLY YOU FOOLS."
-
-print(Gandalf.greet())
+# when i call it 'Gandalf.greet(Frodo)' it should return
+#Hello, Frodo Baggins, you must take the ring!
+print(Gandalf.greet(Frodo))
