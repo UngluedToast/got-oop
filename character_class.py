@@ -45,3 +45,9 @@ class Hero(Character):
     #         return "Greetings %s, I am %s, prepare to die!" % (someone.name, self.name,)
     #     else:
     #         return "I am %s, and I really wish I was fighting right now" % (self.name,)
+
+class MinorHero(Hero):
+    def __init__(self):
+        pass
+    def greet(self, someone=None):
+        return "Yeah, I am just a minor character, move along"

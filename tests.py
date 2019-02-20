@@ -3,6 +3,7 @@
 from character_class import Character
 from character_class import Hero
 from character_class import Monster
+from character_class import MinorHero
 
 
 # Characters can be instantiated with name and avatar
@@ -58,3 +59,8 @@ print(Orc.greet())
 
 # hero needs to greet monster
 print(Gimli.greet(Orc))
+
+
+Ralph = MinorHero
+
+print(Ralph.greet(Orc))
