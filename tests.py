@@ -21,3 +21,9 @@ Gandalf.inventory.append('staff')
 
 print(len(Gandalf.inventory))
 print(Gandalf.inventory)
+
+
+# Gandalf should have a 'greet' method
+# and when I call it, it should return "FLY YOU FOOLS."
+
+print(Gandalf.greet())
