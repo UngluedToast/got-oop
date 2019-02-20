@@ -30,4 +30,8 @@ class Hero(Character):
     pass
 
 class Monster(Character):
-    pass
+    def greet2(self, someone=None):
+        if someone is not None:
+            return "Greetings %s, I am %s, prepare to die!" % (someone.name, self.name,)
+        else:
+            return "I am %s, and I really wish I was fighting right now" % (self.name,)
